@@ -26,6 +26,9 @@
     },
     "cordova-plugin-device": {
       "PACKAGE_NAME": "com.owl.client"
+    },
+    "cordova-plugin-app-event": {
+      "PACKAGE_NAME": "com.owl.client"
     }
   }
 }

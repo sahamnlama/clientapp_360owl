@@ -58,7 +58,8 @@ module.exports.metadata =
   "cordova-plugin-dialogs": "2.0.1",
   "cordova-plugin-inappbrowser": "2.0.2",
   "cordova-plugin-local-notification": "0.9.0-beta.3",
-  "cordova-plugin-whitelist": "1.3.3"
+  "cordova-plugin-whitelist": "1.3.3",
+  "cordova-plugin-app-event": "1.2.1"
 };
 // BOTTOM OF METADATA
 });
