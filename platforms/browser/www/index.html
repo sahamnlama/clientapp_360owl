@@ -78,17 +78,43 @@
             document.addEventListener("deviceready", onDeviceReady, false);
         }
 
+
+        function alertDismissed() {
+            // do something
+        }
+
+        function onPrompt(results) {
+            alert("You selected button number " + results.buttonIndex + " and entered " + results.input1);
+        }
+
+
         // PhoneGap is loaded and it is now safe to make calls PhoneGap methods
         //
         function onDeviceReady() {
 
-          cordova.plugins.notification.local.schedule({
-            id:1,
-    title: 'My first notification',
-    text: 'Thats pretty easy...'
-});
-          //alert();
 
+          cordova.plugins.notification.local.schedule({
+              id: 1,
+              title: "Production Jour fixe",
+              text: "Duration 1h"
+          });
+
+          navigator.notification.alert(
+              'You are the winner!',  // message
+              alertDismissed,         // callback
+              'Game Over',            // title
+              'Done'                  // buttonName
+          );
+
+
+
+          navigator.notification.prompt(
+              'Please enter your name',  // message
+              onPrompt,                  // callback to invoke
+              'Registration',            // title
+              ['Ok','Exit'],             // buttonLabels
+              'Jane Doe'                 // defaultText
+          );
 
 
 cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes,hidden=yes');
