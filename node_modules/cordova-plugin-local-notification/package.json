@@ -14,8 +14,7 @@
     "gitCommittish": "master"
   },
   "_requiredBy": [
-    "#USER",
-    "/"
+    "#USER"
   ],
   "_resolved": "git+https://github.com/katzer/cordova-plugin-local-notifications.git#6d1b27f1e9d8e2198fd1ea6e9032419295690c47",
   "_spec": "https://github.com/katzer/cordova-plugin-local-notifications.git",

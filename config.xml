@@ -25,8 +25,8 @@
     </platform>
     <plugin name="cordova-plugin-inappbrowser" spec="^2.0.2" />
     <plugin name="cordova-plugin-dialogs" spec="^2.0.1" />
-    <engine name="browser" spec="^5.0.3" />
     <plugin name="cordova-plugin-local-notification" spec="https://github.com/katzer/cordova-plugin-local-notifications.git" />
-    <engine name="ios" spec="~4.5.4" />
-    <engine name="android" spec="~7.0.0" />
+    <engine name="browser" spec="^5.0.3" />
+    <engine name="ios" spec="^4.5.4" />
+    <engine name="android" spec="^7.0.0" />
 </widget>
