@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "clientapp_360owl",
+  "short_name": "clientapp_360owl",
+  "version": "com.owl.client",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "author": "Apache Cordova Team",
+  "icons": [],
+  "start_url": "index.html"
+}
